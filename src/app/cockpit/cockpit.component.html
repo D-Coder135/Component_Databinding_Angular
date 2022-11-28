@@ -8,11 +8,11 @@
     <input [(ngModel)]="newServerContent" class="form-control" type="text">
     <br>
     <button
-      (click)="onAddServer()"
+      (click)="onAddServer(serverNameInput)"
       class="btn btn-primary">Add Server
     </button>
     <button
-      (click)="onAddBlueprint()"
+      (click)="onAddBlueprint(serverNameInput)"
       class="btn btn-primary">Add Server Blueprint
     </button>
   </div>
